@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="name"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position"/>
+    <EditText
+        android:id="@+id/edtposition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Position"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team"/>
+    <EditText
+        android:id="@+id/edtteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Team"/>
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"/>
+</LinearLayout>

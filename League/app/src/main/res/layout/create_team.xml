@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team"/>
+    <EditText
+        android:id="@+id/edtteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="team"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner"/>
+    <EditText
+        android:id="@+id/edtowner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Owner"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rank"/>
+    <EditText
+        android:id="@+id/edtrank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Rank"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"/>
+    <EditText
+        android:id="@+id/edtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"/>
+</LinearLayout>
